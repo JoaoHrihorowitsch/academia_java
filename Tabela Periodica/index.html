@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <link  rel="stylesheet" href="style.css">
+   <script src="menu.js"></script>
+   <title>Tabela Periódica</title>
+</head>
+
+<body>
+
+    <table class="tb">
+        <caption>&#60;Tabela Periódica&#62;</caption>
+        
+        <tr>
+            <td class ="cz" onclick="toggleMenu(this)">
+                H<span>1</span>
+                <div class="menu">
+                    <strong>Hidrogênio</strong><br><br>
+                    Simbolo:H<br><br>
+                    Número atômico:1<br><br>
+                    Massa atômica:1.008<br><br>
+                    Conf. Eletronica:1s¹
+                </div>
+            </td>
+            <td class = "cp" colspan="16"></td>
+            <td class="rx" onclick="toggleMenu(this)">
+                He<span>2</span>
+                <div class="menu">
+                    <strong>Hélio</strong><br><br>
+                    Simbolo:He<br><br>
+                    Número atômico:2<br><br>
+                    Massa atômica:4.003<br><br>
+                    Conf. Eletronica:1s²
+                </div>    
+            </td>
+        </tr>
+
+        <tr>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Li<span>3</span>
+                <div class="menu">
+                    <strong>Lítio</strong><br><br>
+                    Simbolo:Li<br><br>
+                    Número atômico:3<br><br>
+                    Massa atômica:6.941<br><br>
+                    Conf. Eletronica:1s²2s¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Be<span>4</span>
+                <div class="menu">
+                    <strong>Berílio</strong><br><br>
+                    Simbolo:Be<br><br>
+                    Número atômico:4<br><br>
+                    Massa atômica:9.012<br><br>
+                    Conf. Eletronica:1s²2s²
+                </div>
+            </td>
+            <td class ="cp" colspan="10"></td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                B<span>5</span>
+                <div class="menu">
+                    <strong>Boro</strong><br><br>
+                    Simbolo:B<br><br>
+                    Número atômico:5<br><br>
+                    Massa atômica:10.811<br><br>
+                    Conf. Eletronica:1s²2s²2p¹
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                C<span>6</span>
+                <div class="menu">
+                    <strong>Carbono</strong><br><br>
+                    Simbolo:C<br><br>
+                    Número atômico:6<br><br>
+                    Massa atômica:12.011<br><br>
+                    Conf. Eletronica:1s²2s²2p²
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                N<span>7</span>
+                <div class="menu">
+                    <strong>Nitrogênio</strong><br><br>
+                    Simbolo:N<br><br>
+                    Número atômico:7<br><br>
+                    Massa atômica:14.007<br><br>
+                    Conf. Eletronica:1s²2s²2p³
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                O<span>8</span>
+                <div class="menu">
+                    <strong>Oxigênio</strong><br><br>
+                    Simbolo:O<br><br>
+                    Número atômico:8<br><br>
+                    Massa atômica:15.999<br><br>
+                    Conf. Eletronica:1s²2s²2p⁴
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                F<span>9</span>
+                <div class="menu">
+                    <strong>Flúor</strong><br><br>
+                    Simbolo:F<br><br>
+                    Número atômico:9<br><br>
+                    Massa atômica:18.998<br><br>
+                    Conf. Eletronica:1s²2s²2p⁵
+                </div>
+            </td>
+            <td class="rx" onclick="toggleMenu(this)">
+                Ne<span>10</span>
+                <div class="menu">
+                    <strong>Neônio</strong><br><br>
+                    Simbolo:Ne<br><br>
+                    Número atômico:10<br><br>
+                    Massa atômica:20.18<br><br>
+                    Conf. Eletronica:1s²2s²2p⁶
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Na<span>11</span>
+                <div class="menu">
+                    <strong>Sódio</strong><br><br>
+                    Simbolo:Na<br><br>
+                    Número atômico:11<br><br>
+                    Massa atômica:22.99<br><br>
+                    Conf. Eletronica:[Ne]3s¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Mg<span>12</span>
+                <div class="menu">
+                    <strong>Magnésio</strong><br><br>
+                    Simbolo:Mg<br><br>
+                    Número atômico:12<br><br>
+                    Massa atômica:24.305<br><br>
+                    Conf. Eletronica:[Ne]3s²
+                </div>
+            </td>
+            <td class ="cp" colspan="10"></td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Al<span>13</span>
+                <div class="menu">
+                    <strong>Alumínio</strong><br><br>
+                    Simbolo:Al<br><br>
+                    Número atômico:13<br><br>
+                    Massa atômica:26.982<br><br>
+                    Conf. Eletronica:[Ne]3s²3p¹
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                Si<span>14</span>
+                <div class="menu">
+                    <strong>Silício</strong><br><br>
+                    Simbolo:Si<br><br>
+                    Número atômico:14<br><br>
+                    Massa atômica:28.086<br><br>
+                    Conf. Eletronica:[Ne]3s²3p²
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                P<span>15</span>
+                <div class="menu">
+                    <strong>Fósforo</strong><br><br>
+                    Simbolo:P<br><br>
+                    Número atômico:15<br><br>
+                    Massa atômica:30.974<br><br>
+                    Conf. Eletronica:[Ne]3s²3p³
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                S<span>16</span>
+                <div class="menu">
+                    <strong>Enxofre</strong><br><br>
+                    Simbolo:S<br><br>
+                    Número atômico:16<br><br>
+                    Massa atômica:32.065<br><br>
+                    Conf. Eletronica:[Ne]3s²3p⁴
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                Ci<span>17</span>
+                <div class="menu">
+                    <strong>Cloro</strong><br><br>
+                    Simbolo:Ci<br><br>
+                    Número atômico:17<br><br>
+                    Massa atômica:35.453<br><br>
+                    Conf. Eletronica:[Ne]3s²3p⁵
+                </div>
+            </td>
+            <td class="rx" onclick="toggleMenu(this)">
+                Ar<span>18</span>
+                <div class="menu">
+                    <strong>Argônio</strong><br><br>
+                    Simbolo:Ar<br><br>
+                    Número atômico:18<br><br>
+                    Massa atômica:39.948<br><br>
+                    Conf. Eletronica:[Ne]3s²3p⁶
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class ="vd" onclick="toggleMenu(this)">
+                K<span>19</span>
+                <div class="menu">
+                    <strong>Potássio</strong><br><br>
+                    Simbolo:K<br><br>
+                    Número atômico:19<br><br>
+                    Massa atômica:39.098<br><br>
+                    Conf. Eletronica:[Ar]4s¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Ca<span>20</span>
+                <div class="menu">
+                    <strong>Cálcio</strong><br><br>
+                    Simbolo:Ca<br><br>
+                    Número atômico:20<br><br>
+                    Massa atômica:40.078<br><br>
+                    Conf. Eletronica:[Ar]4s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Sc<span>21</span>
+                <div class="menu">
+                    <strong>Escândio</strong><br><br>
+                    Simbolo:Sc<br><br>
+                    Número atômico:21<br><br>
+                    Massa atômica:44.956<br><br>
+                    Conf. Eletronica:[Ar]3d¹4s²
+                </div>
+            </td> 
+            <td class="az" onclick="toggleMenu(this)">
+                Ti<span>22</span>
+                <div class="menu">
+                    <strong>Titânio</strong><br><br>
+                    Simbolo:Ti<br><br>
+                    Número atômico:22<br><br>
+                    Massa atômica:47.867<br><br>
+                    Conf. Eletronica:[Ar]3d²4s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                V<span>23</span>
+                <div class="menu">
+                    <strong>Vanádio</strong><br><br>
+                    Simbolo:V<br><br>
+                    Número atômico:23<br><br>
+                    Massa atômica:50.942<br><br>
+                    Conf. Eletronica:[Ar]3d³4s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Cr<span>24</span>
+                <div class="menu">
+                    <strong>Cromo</strong><br><br>
+                    Simbolo:Cr<br><br>
+                    Número atômico:24<br><br>
+                    Massa atômica:51.996<br><br>
+                    Conf. Eletronica:[Ar]3d⁵4s1
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Mn<span>25</span>
+                <div class="menu">
+                    <strong>Manganês</strong><br><br>
+                    Simbolo:Mn<br><br>
+                    Número atômico:25<br><br>
+                    Massa atômica:54.938<br><br>
+                    Conf. Eletronica:[Ar]3d⁵4s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Fe<span>26</span>
+                <div class="menu">
+                    <strong>Ferro</strong><br><br>
+                    Simbolo:Fe<br><br>
+                    Número atômico:26<br><br>
+                    Massa atômica:55.845<br><br>
+                    Conf. Eletronica:[Ar]3d⁶4s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Co<span>27</span>
+                <div class="menu">
+                    <strong>Cobalto</strong><br><br>
+                    Simbolo:Co<br><br>
+                    Número atômico:27<br><br>
+                    Massa atômica:58.933<br><br>
+                    Conf. Eletronica:[Ar]3d⁷4s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Ni<span>28</span>
+                <div class="menu">
+                    <strong>Níquel</strong><br><br>
+                    Simbolo:Ni<br><br>
+                    Número atômico:28<br><br>
+                    Massa atômica:58.693<br><br>
+                    Conf. Eletronica:[Ar]3d⁸4s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Cu<span>29</span>
+                <div class="menu">
+                    <strong>Cobre</strong><br><br>
+                    Simbolo:Cu<br><br>
+                    Número atômico:29<br><br>
+                    Massa atômica:63.546<br><br>
+                    Conf. Eletronica:[Ar]3d¹&#x000B0;4s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Zn<span>30</span>
+                <div class="menu">
+                    <strong>Zinco</strong><br><br>
+                    Simbolo:Zn<br><br>
+                    Número atômico:30<br><br>
+                    Massa atômica:65.409<br><br>
+                    Conf. Eletronica:[Ar]3d¹&#x000B0;4s²
+                </div>
+            </td> 
+            <td class ="vd" onclick="toggleMenu(this)">
+                Ga<span>31</span>
+                <div class="menu">
+                    <strong>Gálio</strong><br><br>
+                    Simbolo:Ga<br><br>
+                    Número atômico:31<br><br>
+                    Massa atômica:69.723<br><br>
+                    Conf. Eletronica:[Ar]3d¹&#x000B0;4s²4p¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Ge<span>32</span>
+                <div class="menu">
+                    <strong>Germânio</strong><br><br>
+                    Simbolo:Ge<br><br>
+                    Número atômico:32<br><br>
+                    Massa atômica:72.64<br><br>
+                    Conf. Eletronica:[Ar]3d¹&#x000B0;4s²4p²
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                As<span>33</span>
+                <div class="menu">
+                    <strong>Arsênio</strong><br><br>
+                    Simbolo:As<br><br>
+                    Número atômico:33<br><br>
+                    Massa atômica:74.922<br><br>
+                    Conf. Eletronica:[Ar]3d¹&#x000B0;4s²4p³
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                Se<span>34</span>
+                <div class="menu">
+                    <strong>Selênio</strong><br><br>
+                    Simbolo:Se<br><br>
+                    Número atômico:34<br><br>
+                    Massa atômica:78.96<br><br>
+                    Conf. Eletronica:[Ar]3d¹&#x000B0;4s²4p⁴
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                Br<span>35</span>
+                <div class="menu">
+                    <strong>Bromo</strong><br><br>
+                    Simbolo:Br<br><br>
+                    Número atômico:35<br><br>
+                    Massa atômica:79.904<br><br>
+                    Conf. Eletronica:[Ar]3d¹&#x000B0;4s²4p⁵
+                </div>
+            </td>
+            <td class="rx" onclick="toggleMenu(this)">
+                Kr<span>36</span>
+                <div class="menu">
+                    <strong>Criptônio</strong><br><br>
+                    Simbolo:Kr<br><br>
+                    Número atômico:36<br><br>
+                    Massa atômica:83.798<br><br>
+                    Conf. Eletronica:[Ar]3d¹&#x000B0;4s²4p⁶
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Rb<span>37</span>
+                <div class="menu">
+                    <strong>Rubídio</strong><br><br>
+                    Simbolo:Rb<br><br>
+                    Número atômico:37<br><br>
+                    Massa atômica:85.468<br><br>
+                    Conf. Eletronica:[Kr]5s¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Sr<span>38</span>
+                <div class="menu">
+                    <strong>Estôncio</strong><br><br>
+                    Simbolo:Sr<br><br>
+                    Número atômico:38<br><br>
+                    Massa atômica:87.62<br><br>
+                    Conf. Eletronica:[Kr]5s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Y<span>39</span>
+                <div class="menu">
+                    <strong>Itrío</strong><br><br>
+                    Simbolo:Y<br><br>
+                    Número atômico:39<br><br>
+                    Massa atômica:88.906<br><br>
+                    Conf. Eletronica:[Kr]4d¹5s²
+                </div>
+            </td> 
+            <td class="az" onclick="toggleMenu(this)">
+                Zr<span>40</span>
+                <div class="menu">
+                    <strong>Zircônio</strong><br><br>
+                    Simbolo:Zr<br><br>
+                    Número atômico:40<br><br>
+                    Massa atômica:91.224<br><br>
+                    Conf. Eletronica:[Kr]4d²5s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Nb<span>41</span>
+                <div class="menu">
+                    <strong>Nióbio</strong><br><br>
+                    Simbolo:Nb<br><br>
+                    Número atômico:41<br><br>
+                    Massa atômica:92.906 &nbsp; 38<br><br>
+                    Conf. Eletronica:[Kr]4d⁴5s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Mo<span>42</span>
+                <div class="menu">
+                    <strong>Molibdênio</strong><br><br>
+                    Simbolo:Mo<br><br>
+                    Número atômico:42<br><br>
+                    Massa atômica:95.94<br><br>
+                    Conf. Eletronica:[Kr]4d⁵5s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Tc<span>43</span>
+                <div class="menu">
+                    <strong>Tecnécio</strong><br><br>
+                    Simbolo:Tc<br><br>
+                    Número atômico:43<br><br>
+                    Massa atômica:[98]<br><br>
+                    Conf. Eletronica:[Kr]4d⁵5s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Ru<span>44</span>
+                <div class="menu">
+                    <strong>Rutênio</strong><br><br>
+                    Simbolo:Ru<br><br>
+                    Número atômico:44<br><br>
+                    Massa atômica:101.07<br><br>
+                    Conf. Eletronica:[Kr]4d⁷5s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Rh<span>45</span>
+                <div class="menu">
+                    <strong>Ródio</strong><br><br>
+                    Simbolo:Rh<br><br>
+                    Número atômico:45<br><br>
+                    Massa atômica:102.905&nbsp;50<br><br>
+                    Conf. Eletronica:[Kr]4d⁸5s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Pd<span>46</span>
+                <div class="menu">
+                    <strong>Paládio</strong><br><br>
+                    Simbolo:Pd<br><br>
+                    Número atômico:46<br><br>
+                    Massa atômica:106.42<br><br>
+                    Conf. Eletronica:[Kr]4d¹⁰5s⁰
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Ag<span>47</span>
+                <div class="menu">
+                    <strong>Prata</strong><br><br>
+                    Simbolo:Ag<br><br>
+                    Número atômico:47<br><br>
+                    Massa atômica:107.868<br><br>
+                    Conf. Eletronica:[Kr]4d¹⁰5s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Cd<span>48</span>
+                <div class="menu">
+                    <strong>Cádmio</strong><br><br>
+                    Simbolo:Cd<br><br>
+                    Número atômico:48<br><br>
+                    Massa atômica:112.411<br><br>
+                    Conf. Eletronica:[Kr]4d¹⁰5s²
+                </div>
+            </td> 
+            <td class ="vd" onclick="toggleMenu(this)">
+                In<span>49</span>
+                <div class="menu">
+                    <strong>Índio</strong><br><br>
+                    Simbolo:In<br><br>
+                    Número atômico:49<br><br>
+                    Massa atômica:114.818<br><br>
+                    Conf. Eletronica:[Kr]4d¹⁰5s¹5p¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Sn<span>50</span>
+                <div class="menu">
+                    <strong>Estanho</strong><br><br>
+                    Simbolo:Sn<br><br>
+                    Número atômico:50<br><br>
+                    Massa atômica:118.71<br><br>
+                    Conf. Eletronica:[Kr]4d¹⁰5s²5p²
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Sb<span>51</span>
+                <div class="menu">
+                    <strong>Antimônio</strong><br><br>
+                    Simbolo:Sb<br><br>
+                    Número atômico:51<br><br>
+                    Massa atômica:121.76<br><br>
+                    Conf. Eletronica:[Kr]4d¹⁰5s²5p³
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                Te<span>52</span>
+                <div class="menu">
+                    <strong>Telúrio</strong><br><br>
+                    Simbolo:Te<br><br>
+                    Número atômico:52<br><br>
+                    Massa atômica:127.6<br><br>
+                    Conf. Eletronica:[Kr]4d¹⁰5s²5p⁴
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                I<span>53</span>
+                <div class="menu">
+                    <strong>Iodo</strong><br><br>
+                    Simbolo:I<br><br>
+                    Número atômico:53<br><br>
+                    Massa atômica:126.904&nbsp;47<br><br>
+                    Conf. Eletronica:[Kr]4d¹⁰5s²5p⁵
+                </div>
+            </td>
+            <td class="rx" onclick="toggleMenu(this)">
+                Xe<span>54</span>
+                <div class="menu">
+                    <strong>Xenônio</strong><br><br>
+                    Simbolo:Xe<br><br>
+                    Número atômico:54<br><br>
+                    Massa atômica:131.293<br><br>
+                    Conf. Eletronica:[Kr]4d¹⁰5s²5p⁶
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Cs<span>55</span>
+                <div class="menu">
+                    <strong>Césio</strong><br><br>
+                    Simbolo:Cs<br><br>
+                    Número atômico:55<br><br>
+                    Massa atômica:132.905<br><br>
+                    Conf. Eletronica:[Xe]6s¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Ba<span>56</span>
+                <div class="menu">
+                    <strong>Bário</strong><br><br>
+                    Simbolo:Ba<br><br>
+                    Número atômico:56<br><br>
+                    Massa atômica:137.327<br><br>
+                    Conf. Eletronica:[Xe]6s²
+                </div>
+            </td>
+            <td class ="mr" onclick="toggleMenu(this)">
+                <div class="teste">H</div><span>57-71</span>
+            </td> 
+            <td class="az" onclick="toggleMenu(this)">
+                Hf<span>72</span>
+                <div class="menu">
+                    <strong>Háfnio</strong><br><br>
+                    Simbolo:Hf<br><br>
+                    Número atômico:72<br><br>
+                    Massa atômica:178.49<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d²6s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Ta<span>73</span>
+                <div class="menu">
+                    <strong>Tântalo</strong><br><br>
+                    Simbolo:Ta<br><br>
+                    Número atômico:73<br><br>
+                    Massa atômica:180.948<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d³6s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                W<span>74</span>
+                <div class="menu">
+                    <strong>Tungstênio</strong><br><br>
+                    Simbolo:W<br><br>
+                    Número atômico:74<br><br>
+                    Massa atômica:183.84<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d⁴6s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Re<span>75</span>
+                <div class="menu">
+                    <strong>Rênio</strong><br><br>
+                    Simbolo:Re<br><br>
+                    Número atômico:75<br><br>
+                    Massa atômica:186.207<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d⁵6s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Os<span>76</span>
+                <div class="menu">
+                    <strong>Ósmio</strong><br><br>
+                    Simbolo:Os<br><br>
+                    Número atômico:76<br><br>
+                    Massa atômica:190.23<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d⁶6s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Ir<span>77</span>
+                <div class="menu">
+                    <strong>Irídio</strong><br><br>
+                    Simbolo:Ir<br><br>
+                    Número atômico:77<br><br>
+                    Massa atômica:192.217<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d⁷6s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Pt<span>78</span>
+                <div class="menu">
+                    <strong>Platina</strong><br><br>
+                    Simbolo:Pt<br><br>
+                    Número atômico:78<br><br>
+                    Massa atômica:195.084<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d⁹6s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Au<span>79</span>
+                <div class="menu">
+                    <strong>Ouro</strong><br><br>
+                    Simbolo:Ar<br><br>
+                    Número atômico:79<br><br>
+                    Massa atômica:196.967<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d¹⁰6s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Hg<span>80</span>
+                <div class="menu">
+                    <strong>Mercúrio</strong><br><br>
+                    Simbolo:Hg<br><br>
+                    Número atômico:80<br><br>
+                    Massa atômica:200.59<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d¹⁰6s²
+                </div>
+            </td> 
+            <td class ="vd" onclick="toggleMenu(this)">
+                Ti<span>81</span>
+                <div class="menu">
+                    <strong>Tálio</strong><br><br>
+                    Simbolo:Ti<br><br>
+                    Número atômico:81<br><br>
+                    Massa atômica:204.383<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d¹⁰6s²6p¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Pb<span>82</span>
+                <div class="menu">
+                    <strong>Chumbo</strong><br><br>
+                    Simbolo:Pb<br><br>
+                    Número atômico:82<br><br>
+                    Massa atômica:207.2<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d¹⁰6s²6p²
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Bi<span>83</span>
+                <div class="menu">
+                    <strong>Bismuto</strong><br><br>
+                    Simbolo:Bi<br><br>
+                    Número atômico:83<br><br>
+                    Massa atômica:208.98<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d¹⁰6s²6p³
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Po<span>84</span>
+                <div class="menu">
+                    <strong>Polônio</strong><br><br>
+                    Simbolo:Po<br><br>
+                    Número atômico:84<br><br>
+                    Massa atômica:[210]<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d¹⁰6s²6p⁴
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                At<span>85</span>
+                <div class="menu">
+                    <strong>Ástato</strong><br><br>
+                    Simbolo:At<br><br>
+                    Número atômico:85<br><br>
+                    Massa atômica:[210]<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d¹⁰6s²6p⁵
+                </div>
+            </td>
+            <td class="rx" onclick="toggleMenu(this)">
+                Rn<span>86</span>
+                <div class="menu">
+                    <strong>Radônio</strong><br><br>
+                    Simbolo:Rn<br><br>
+                    Número atômico:86<br><br>
+                    Massa atômica:[220]<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d¹⁰6s²6p⁶
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Fr<span>87</span>
+                <div class="menu">
+                    <strong>Frâncio</strong><br><br>
+                    Simbolo:Fr<br><br>
+                    Número atômico:87<br><br>
+                    Massa atômica:[223]<br><br>
+                    Conf. Eletronica:[Rn]7s¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Ra<span>88</span>
+                <div class="menu">
+                    <strong>Rádio</strong><br><br>
+                    Simbolo:Ra<br><br>
+                    Número atômico:88<br><br>
+                    Massa atômica:[226]<br><br>
+                    Conf. Eletronica:[Rn]7s²
+                </div>
+            </td>
+            <td class ="mr" onclick="toggleMenu(this)">
+                <div class="teste">H</div><span>89-103</span>
+            </td> 
+            <td class="az" onclick="toggleMenu(this)">
+                Rf<span>104</span>
+                <div class="menu">
+                    <strong>Rutherfórdio</strong><br><br>
+                    Simbolo:Rf<br><br>
+                    Número atômico:104<br><br>
+                    Massa atômica:261<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d²7s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Db<span>105</span>
+                <div class="menu">
+                    <strong>Dúbnio</strong><br><br>
+                    Simbolo:Db<br><br>
+                    Número atômico:105<br><br>
+                    Massa atômica:[262]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d³7s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Sg<span>106</span>
+                <div class="menu">
+                    <strong>Seabórgio</strong><br><br>
+                    Simbolo:Sg<br><br>
+                    Número atômico:106<br><br>
+                    Massa atômica:[266]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d⁴7s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Bh<span>107</span>
+                <div class="menu">
+                    <strong>Bóhrio</strong><br><br>
+                    Simbolo:Bh<br><br>
+                    Número atômico:107<br><br>
+                    Massa atômica:[264]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d⁵7s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Hs<span>108</span>
+                <div class="menu">
+                    <strong>Hássio</strong><br><br>
+                    Simbolo:Hs<br><br>
+                    Número atômico:108<br><br>
+                    Massa atômica:[277]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d⁶7s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Mt<span>109</span>
+                <div class="menu">
+                    <strong>Meitnério</strong><br><br>
+                    Simbolo:Mt<br><br>
+                    Número atômico:109<br><br>
+                    Massa atômica:[268]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d⁷7s²
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Ds<span>110</span>
+                <div class="menu">
+                    <strong>Darmstádio</strong><br><br>
+                    Simbolo:Ds<br><br>
+                    Número atômico:110<br><br>
+                    Massa atômica:[271]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d⁹7s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Rg<span>111</span>
+                <div class="menu">
+                    <strong>Roentgênio</strong><br><br>
+                    Simbolo:Rg<br><br>
+                    Número atômico:111<br><br>
+                    Massa atômica:[272]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d¹⁰7s¹
+                </div>
+            </td>
+            <td class="az" onclick="toggleMenu(this)">
+                Cn<span>112</span>
+                <div class="menu">
+                    <strong>Copernício</strong><br><br>
+                    Simbolo:Cn<br><br>
+                    Número atômico:112<br><br>
+                    Massa atômica:[277]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d¹⁰7s²
+                </div>
+            </td> 
+            <td class ="vd" onclick="toggleMenu(this)">
+                Nh<span>113</span>
+                <div class="menu">
+                    <strong>Nihônio</strong><br><br>
+                    Simbolo:Nh<br><br>
+                    Número atômico:113<br><br>
+                    Massa atômica:[286]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d¹⁰7s²7p¹
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Fl<span>114</span>
+                <div class="menu">
+                    <strong>Fleróvio</strong><br><br>
+                    Simbolo:Fl<br><br>
+                    Número atômico:114<br><br>
+                    Massa atômica:[289]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d¹⁰7s²7p²
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Mc<span>115</span>
+                <div class="menu">
+                    <strong>Moscóvio</strong><br><br>
+                    Simbolo:Mc<br><br>
+                    Número atômico:115<br><br>
+                    Massa atômica:[288]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d¹⁰7s²7p³
+                </div>
+            </td>
+            <td class ="vd" onclick="toggleMenu(this)">
+                Lv<span>116</span>
+                <div class="menu">
+                    <strong>Livermório</strong><br><br>
+                    Simbolo:Lv<br><br>
+                    Número atômico:116<br><br>
+                    Massa atômica:[293]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d¹⁰7s²7p⁴
+                </div>
+            </td>
+            <td class ="lr" onclick="toggleMenu(this)">
+                Ts<span>117</span>
+                <div class="menu">
+                    <strong>Tenessino</strong><br><br>
+                    Simbolo:Ts<br><br>
+                    Número atômico:117<br><br>
+                    Massa atômica:[294]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d¹⁰7s²7p⁵
+                </div>
+            </td>
+            <td class="rx" onclick="toggleMenu(this)">
+                Og<span>118</span>
+                <div class="menu">
+                    <strong>Oganessônio</strong><br><br>
+                    Simbolo:Og<br><br>
+                    Número atômico:118<br><br>
+                    Massa atômica:[294]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴6d¹⁰7s²7p⁶
+                </div>
+            </td>
+        </tr>          
+    </table>            
+
+    <table class="tb2">
+        <tr>
+            <td class="mr" onclick="toggleMenu(this)">
+                La<span>57</span>
+                <div class="menu">
+                    <strong>Lantânio</strong><br><br>
+                    Simbolo:La<br><br>
+                    Número atômico:57<br><br>
+                    Massa atômica:138.905<br><br>
+                    Conf. Eletronica:[Xe]5d¹6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Ce<span>58</span>
+                <div class="menu">
+                    <strong>Cério</strong><br><br>
+                    Simbolo:Ce<br><br>
+                    Número atômico:58<br><br>
+                    Massa atômica:140.116<br><br>
+                    Conf. Eletronica:[Xe]4f¹6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Pr<span>59</span>
+                <div class="menu">
+                    <strong>Praseodímio</strong><br><br>
+                    Simbolo:Pr<br><br>
+                    Número atômico:59<br><br>
+                    Massa atômica:140.908<br><br>
+                    Conf. Eletronica:[Xe]4f³6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Nd<span>60</span>
+                <div class="menu">
+                    <strong>Neodímio</strong><br><br>
+                    Simbolo:Nd<br><br>
+                    Número atômico:60<br><br>
+                    Massa atômica:144.242<br><br>
+                    Conf. Eletronica:[Xe]4f⁴6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Pm<span>61</span>
+                <div class="menu">
+                    <strong>Promécio</strong><br><br>
+                    Simbolo:Pm<br><br>
+                    Número atômico:61<br><br>
+                    Massa atômica:[145]<br><br>
+                    Conf. Eletronica:[Xe]4f⁵6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Sm<span>62</span>
+                <div class="menu">
+                    <strong>Samário</strong><br><br>
+                    Simbolo:Sm<br><br>
+                    Número atômico:62<br><br>
+                    Massa atômica:150.36<br><br>
+                    Conf. Eletronica:[Xe]4f⁶6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Eu<span>63</span>
+                <div class="menu">
+                    <strong>Európio</strong><br><br>
+                    Simbolo:Eu<br><br>
+                    Número atômico:63<br><br>
+                    Massa atômica:151.964<br><br>
+                    Conf. Eletronica:[Xe]4f⁷6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Gd<span>64</span>
+                <div class="menu">
+                    <strong>Gadolínio</strong><br><br>
+                    Simbolo:Gd<br><br>
+                    Número atômico:64<br><br>
+                    Massa atômica:157.25<br><br>
+                    Conf. Eletronica:[Xe]4f⁷5d¹6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Tb<span>65</span>
+                <div class="menu">
+                    <strong>Térbio</strong><br><br>
+                    Simbolo:Tb<br><br>
+                    Número atômico:65<br><br>
+                    Massa atômica:158.925<br><br>
+                    Conf. Eletronica:[Xe]4f⁹6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Dy<span>66</span>
+                <div class="menu">
+                    <strong>Disprósio</strong><br><br>
+                    Simbolo:Dy<br><br>
+                    Número atômico:66<br><br>
+                    Massa atômica:162.5<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁰6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Ho<span>67</span>
+                <div class="menu">
+                    <strong>Hólmio</strong><br><br>
+                    Simbolo:Ho<br><br>
+                    Número atômico:67<br><br>
+                    Massa atômica:164.930&nbsp;32<br><br>
+                    Conf. Eletronica:[Xe]4f¹¹6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Er<span>68</span>
+                <div class="menu">
+                    <strong>Érbio</strong><br><br>
+                    Simbolo:Er<br><br>
+                    Número atômico:68<br><br>
+                    Massa atômica:167.259<br><br>
+                    Conf. Eletronica:[Xe]4f¹²6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Tm<span>69</span>
+                <div class="menu">
+                    <strong>Túlio</strong><br><br>
+                    Simbolo:Tm<br><br>
+                    Número atômico:69<br><br>
+                    Massa atômica:168.934<br><br>
+                    Conf. Eletronica:[Xe]4f¹³6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Yb<span>70</span>
+                <div class="menu">
+                    <strong>Itérbio</strong><br><br>
+                    Simbolo:Yb<br><br>
+                    Número atômico:70<br><br>
+                    Massa atômica:173.04<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴6s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Lu<span>71</span>
+                <div class="menu">
+                    <strong>Lutécio</strong><br><br>
+                    Simbolo:Lu<br><br>
+                    Número atômico:71<br><br>
+                    Massa atômica:174.967<br><br>
+                    Conf. Eletronica:[Xe]4f¹⁴5d¹6s²
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="mr" onclick="toggleMenu(this)">
+                Ac<span>89</span>
+                <div class="menu">
+                    <strong>Actínio</strong><br><br>
+                    Simbolo:Ac<br><br>
+                    Número atômico:89<br><br>
+                    Massa atômica:[277]<br><br>
+                    Conf. Eletronica:[Rn]6d¹7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Th<span>90</span>
+                <div class="menu">
+                    <strong>Tório</strong><br><br>
+                    Simbolo:Th<br><br>
+                    Número atômico:90<br><br>
+                    Massa atômica:232.03806<br><br>
+                    Conf. Eletronica:[Rn]6d²7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Pa<span>91</span>
+                <div class="menu">
+                    <strong>Protactínio</strong><br><br>
+                    Simbolo:Pa<br><br>
+                    Número atômico:91<br><br>
+                    Massa atômica:231.03588<br><br>
+                    Conf. Eletronica:[Rn]5f²6d¹7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                U<span>92</span>
+                <div class="menu">
+                    <strong>Urânio</strong><br><br>
+                    Simbolo:U<br><br>
+                    Número atômico:92<br><br>
+                    Massa atômica:238.02891<br><br>
+                    Conf. Eletronica:[Rn]5f³6d¹7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Np<span>93</span>
+                <div class="menu">
+                    <strong>Netúnio</strong><br><br>
+                    Simbolo:Np<br><br>
+                    Número atômico:93<br><br>
+                    Massa atômica:[237]<br><br>
+                    Conf. Eletronica:[Rn]5f⁴6d¹7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Pu<span>94</span>
+                <div class="menu">
+                    <strong>Plutônio</strong><br><br>
+                    Simbolo:Pu<br><br>
+                    Número atômico:94<br><br>
+                    Massa atômica:[244]<br><br>
+                    Conf. Eletronica:[Rn]5f⁶7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Am<span>95</span>
+                <div class="menu">
+                    <strong>Amerício</strong><br><br>
+                    Simbolo:Am<br><br>
+                    Número atômico:95<br><br>
+                    Massa atômica:[243]<br><br>
+                    Conf. Eletronica:[Rn]5f⁷7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Cm<span>96</span>
+                <div class="menu">
+                    <strong>Cúrio</strong><br><br>
+                    Simbolo:Cm<br><br>
+                    Número atômico:96<br><br>
+                    Massa atômica:[247]<br><br>
+                    Conf. Eletronica:[Rn]5f⁷6d¹7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Bk<span>97</span>
+                <div class="menu">
+                    <strong>Berquélio</strong><br><br>
+                    Simbolo:Bk<br><br>
+                    Número atômico:97<br><br>
+                    Massa atômica:[247]<br><br>
+                    Conf. Eletronica:[Rn]5f⁹7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Cf<span>98</span>
+                <div class="menu">
+                    <strong>Califórnio</strong><br><br>
+                    Simbolo:Cf<br><br>
+                    Número atômico:98<br><br>
+                    Massa atômica:[251]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁰7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Es<span>99</span>
+                <div class="menu">
+                    <strong>Einsténio</strong><br><br>
+                    Simbolo:Es<br><br>
+                    Número atômico:99<br><br>
+                    Massa atômica:[252]<br><br>
+                    Conf. Eletronica:[Rn]5f¹¹7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Fm<span>100</span>
+                <div class="menu">
+                    <strong>Férmio</strong><br><br>
+                    Simbolo:Fm<br><br>
+                    Número atômico:100<br><br>
+                    Massa atômica:[257]<br><br>
+                    Conf. Eletronica:[Rn]5f¹¹7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Md<span>101</span>
+                <div class="menu">
+                    <strong>Mendelévio</strong><br><br>
+                    Simbolo:Md<br><br>
+                    Número atômico:101<br><br>
+                    Massa atômica:[258]<br><br>
+                    Conf. Eletronica:[Rn]5f³7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                No<span>102</span>
+                <div class="menu">
+                    <strong>Nobélio</strong><br><br>
+                    Simbolo:No<br><br>
+                    Número atômico:102<br><br>
+                    Massa atômica:[259]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴7s²
+                </div>
+            </td>
+            <td class="mr" onclick="toggleMenu(this)">
+                Lr<span>103</span>
+                <div class="menu">
+                    <strong>Laurêncio</strong><br><br>
+                    Simbolo:Lr<br><br>
+                    Número atômico:103<br><br>
+                    Massa atômica:[262]<br><br>
+                    Conf. Eletronica:[Rn]5f¹⁴7s²7p¹
+                </div>
+            </td>
+        </tr>
+    </table> 
+
+    <table class="legenda">
+        <tr>
+            <td class="vd"></td>
+            <td class="cp">Metais representativos</td>
+            <td class="az"></td>
+            <td class="cp">Metais de transição externo </td>
+            <td class="mr"></td>
+            <td class="cp">Metais Metais de transição internos</td>
+        </tr>
+        <tr>
+            <td class="lr"></td>
+            <td class="cp">Não Metais</td>
+            <td class="rx"></td>
+            <td class="cp">Gases nobres</td>
+            <td class="cz"></td>
+            <td class="cp">Hidrogênio</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
