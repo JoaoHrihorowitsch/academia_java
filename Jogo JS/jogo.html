@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+
+    <title>Jogo das Cores</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="nivel">
+                <h1 id="numero-nivel">Nível 1</h1>
+                <span id="minuto">00</span> :
+                <span id="segundo">00</span> :
+                <span id="milesegundo">000</span>
+            </div>
+            <div class="botao">
+                <button class="iniciar" type="button" onclick="iniciarJogo()">Iniciar</button><br>
+                <button class="reset" onclick="resetarJogo()">Resetar Jogo</button>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="cores-alvo">
+                <h2>Seu alvo é:</h2><br>
+                <div class="palavra-gerada"></div>
+                <div class="mensagem-erro"></div><br>
+                <span id="pontuacao"></span>
+            </div>
+
+            <div class="tabela">
+                <table onclick="embaralhar()" class="gerar-palavra">
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
